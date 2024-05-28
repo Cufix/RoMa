@@ -4,10 +4,10 @@ from .roma_models import roma_model
 
 weight_urls = {
     "roma": {
-        "outdoor": "https://github.com/Parskatt/storage/releases/download/roma/roma_outdoor.pth",
+        "outdoor": "https://github.com/Cufix/RoMa/releases/download/v0.0.1/dinov2_vitl14_pretrain.pth",
         "indoor": "https://github.com/Parskatt/storage/releases/download/roma/roma_indoor.pth",
     },
-    "dinov2": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth", #hopefully this doesnt change :D
+    "dinov2": "https://github.com/Cufix/RoMa/releases/download/v0.0.1/dinov2_vitl14_pretrain.pth", # this doesnt change for now :)
 }
 
 def roma_outdoor(device, weights=None, dinov2_weights=None, coarse_res: Union[int,tuple[int,int]] = 560, upsample_res: Union[int,tuple[int,int]] = 864, amp_dtype: torch.dtype = torch.float16):
