@@ -4,7 +4,7 @@ from .roma_models import roma_model
 
 weight_urls = {
     "roma": {
-        "outdoor": "https://github.com/Cufix/RoMa/releases/download/v0.0.1/dinov2_vitl14_pretrain.pth",
+        "outdoor": "https://github.com/Cufix/RoMa/releases/download/v0.0.1/roma_outdoor.pth",
         "indoor": "https://github.com/Parskatt/storage/releases/download/roma/roma_indoor.pth",
     },
     "dinov2": "https://github.com/Cufix/RoMa/releases/download/v0.0.1/dinov2_vitl14_pretrain.pth", # this doesnt change for now :)
